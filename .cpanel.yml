@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/malehwcc/public_html/
-    - /bin/cp -R maltest $DEPLOYPATH
+    - export DEPLOYPATH=/home/malehwcc/
+    - /bin/cp index.html /home/malehwcc/public
+    - /bin/cp index.css /home/malehwcc/src
